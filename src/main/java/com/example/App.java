@@ -29,7 +29,7 @@ public class App
       for (int i=0;i<books;i++)
         {
           System.out.println("Enter book" + (i+1)+ "Name:");
-          bookname[i]=sc.nextLine();
+          booknames[i]=sc.nextLine();
 
         }
       System.out.println("Enter number of books borrowed");
