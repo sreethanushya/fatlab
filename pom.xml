@@ -1,22 +1,22 @@
-package com.example;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-public class Apptest {
+<modelVersion>4.0.0</modelVersion>
 
-    @Test
-    public void withNofine() {
-      int result=App.calculate(days:5);
-      assertEquals(0,result);
-        
-    }
+<groupId>com.example</groupId> <artifactId>librarymanagementsystem</artifactId> <version>1.0-SNAPSHOT</version>
 
-    @Test
-    public void withfine()
-  {
-    int result = App.calculate(days:8);
-    aseertEquals(5,result);
-  }
-    
-}
+ <dependencies>
+  <dependency>
+   <groupId>junit</groupId>
+   <artifactId>junit</artifactId>
+   <version>4.13.2</version>
+   <scope>test</scope>
+  </dependency>
+ </dependencies>
+
+</project>
+
+
